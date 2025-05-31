@@ -28,21 +28,21 @@ namespace Aula04
             if (notaFinal >= 8 && notaFinal <= 10)
 
             {
-                Console.WriteLine("Aprovado!");
+                Console.WriteLine("Nota: "  + notaFinal +  " Aprovado!");
 
             }
 
             else if (notaFinal >= 5 && notaFinal <= 7)
             {
 
-                Console.WriteLine("Passou raspando");
+                Console.WriteLine("Nota: " + notaFinal +  " Passou raspando");
 
             }
 
             else
 
             {
-                Console.WriteLine("Reprovado");
+                Console.WriteLine("Nota: " + notaFinal + " Reprovado");
             }
 
 
